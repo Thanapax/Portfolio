@@ -15,7 +15,7 @@ function startGame(){
 function timeStart(){
 	var TIMER_TICK = 1000;
 	var timer = setInterval(timeCount, TIMER_TICK);
-	var min = 2; // 0.5 minute
+	var min = 0.5; // 0.5 minute
 	var second = min*60; 
 	var x = document.getElementById('clock');
 	//setting timer using setInterval function

@@ -1,0 +1,57 @@
+
+body{
+    background-color: #f9ecff;
+    font-family: "IBM Plex Sans Thai", sans-serif
+}
+#Head_Page{
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #a78cc5;
+    text-align: center;
+    border-radius: 10px;
+}
+.parent{
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+.Pic_Head{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+.Pic_Ingredients{
+    border-radius: 2%;
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+h2{
+    font-size: 20pt;
+    text-align: center;
+    color: #77638f;
+}
+ul{
+    background-color: #ffc0d5;
+    /* border-radius: 2%; */
+    padding: 20px 20px;
+    /* margin: 10px 10px; */
+}
+section{
+    background-color: #c6daeb;
+    /* border-radius: 2%; */
+    padding: 10px 10px;
+}
+p{
+    margin: 10px 10px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: #ff72c0;
+}
+a:hover{
+    color: aqua;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../home.css'>
+    <!-- <link rel='stylesheet' href='project.css'> -->
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src='project.js'></script>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span>THANAPAX</span>
+                </div>
+                <div class="links" id="links-in-project-page">
+                    <div class="link"><a href="../home.html">Home</a></div>
+                </div>
+            </div>
+            <!-- <i class="fa-solid fa-bars hamburg" onclick='hamburg()'></i>
+            <div class="dropdown">
+                <a href="../home.html">Home</a>
+                <i class="fa-solid fa-xmark cancle" onclick='cancle()'></i>
+            </div> -->
+        </nav>
+        <div class="myProject-container">
+            <h1>3D Model</h1>
+            <div class="myModel">
+                <model-viewer src="model/house_MDT.glb" alt="house-Eve" camera-controls> </model-viewer>
+                <model-viewer src="model/pikachu.glb" alt="pikachu" camera-controls></model-viewer>
+            </div>
+            <h1>Animation</h1>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hi9bFLPBkk4"
+                    title="Animation-janChen" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen>
+                </iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/r_S3wTskDIY?list=PLcQCzG3pQDlLkxmy9UoDFooDKQODvohoq"
+                    title="Animation-janChen" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="social-links" id="myContact">
+            <a href="https://www.facebook.com/thanapa.makwiang/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/thanapax/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@thanapax8721"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/Thanapax"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+</body>
+
+</html>
